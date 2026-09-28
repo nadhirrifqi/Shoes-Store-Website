@@ -1,0 +1,91 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-produk {
+    color: #000000;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    color: #777777;
+    font-size: 14px;
+}
+
+.product-card {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    max-width: 750px;
+    transition: background-color 0.3s ease;
+}
+
+.gambar-produk {
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.category-text {
+    color: #777777;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.teks-utama {
+    color: #000000;
+}
+
+.deskripsi {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.color-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn-black {
+    background-color: #000000;
+}
+
+.btn-blue {
+    background-color: #4A90E2;
+}
+
+.btn-cream {
+    background-color: #F5E6CC;
+}
+
+.btn-add-cart {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-add-cart:hover {
+    background-color: #444444;
+    color: #FFFFFF;
+}
